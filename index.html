@@ -1,0 +1,51 @@
+<!DOCTYPE html>  
+<html lang = "en">
+<head> 
+<title> Calculator </title>  
+<link rel = "stylesheet" href = "styles.css">
+<link rel = "icon" href = "https://static.vecteezy.com/system/resources/previews/011/125/368/original/cute-calculator-icon-png.png">
+</head>  
+<body bgcolor = "#F5C1CB">
+
+<div class= "container">  
+<form name = "form1">        
+
+<div align = center>  
+  <input id = "calc" type ="text" name = "answer"> <br> <br>  
+
+  <input type = "button" value = "1" onclick = "form1.answer.value += '1' "> 
+  <input type = "button" value = "2" onclick = "form1.answer.value += '2' ">  
+  <input type = "button" value = "3" onclick = "form1.answer.value += '3' ">  
+   <input type = "button" value = "+" onclick = "form1.answer.value += '+' ">  
+  <br> <br>  
+    
+  <input type = "button" value = "4" onclick = "form1.answer.value += '4' ">  
+  <input type = "button" value = "5" onclick = "form1.answer.value += '5' ">  
+  <input type = "button" value = "6" onclick = "form1.answer.value += '6' ">  
+  <input type = "button" value = "-" onclick = "form1.answer.value += '-' ">  
+  <br> <br>  
+    
+  <input type = "button" value = "7" onclick = "form1.answer.value += '7' ">  
+  <input type = "button" value = "8" onclick = "form1.answer.value += '8' ">  
+  <input type = "button" value = "9" onclick = "form1.answer.value += '9' ">  
+  <input type = "button" value = "*" onclick = "form1.answer.value += '*' ">  
+  <br> <br>  
+    
+  <input type = "button" value = "/" onclick = "form1.answer.value += '/' ">  
+  <input type = "button" value = "0" onclick = "form1.answer.value += '0' ">
+  <input type = "button" value = "." onclick = "form1.answer.value += '.' "> 
+  <input type = "button" value = "=" onclick = "form1.answer.value = eval(form1.answer.value) ">  
+  <br> <br> <br> 
+
+  <input type = "button" value = "CLEAR" onclick = "form1.answer.value = ' ' " id= "clear" >  
+  <br>
+  <BR>
+    <BR>
+      <BR>
+        <BR>
+          <BR>
+</div>
+</form>  
+</div>  
+</body>  
+</html>
